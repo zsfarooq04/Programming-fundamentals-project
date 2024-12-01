@@ -65,7 +65,6 @@ int main() {
 int choice;
 for(;;){
     printf("Welcome to calculator\n");
-    printf("Enter your choice:\n");
      printf("1:Addition\n");
        printf("2:Subtract\n");
      printf("3:Multiply\n");
@@ -76,6 +75,7 @@ for(;;){
       printf("8:Squareroot\n");
       printf("9:power\n");
       printf("10:Exit\n");
+	printf("Enter your choice:\n");
       scanf("%d",&choice);
       
       switch(choice){
